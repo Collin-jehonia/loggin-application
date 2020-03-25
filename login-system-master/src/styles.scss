@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+ul#navigation{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: purple;
+    margin-bottom: 30px;
+    color: white;
+
+    li{
+        display: inline-block;
+        margin: 0 10px;
+        height: calc(100% - 3px); 
+        outline: none;
+
+        span{
+            position: relative;
+            top: 15px;
+        }
+    }
+
+
+
+    li:hover{
+        cursor: pointer;
+    }
+}
+
+.activeLink{
+    border-bottom : 3px solid white;
+}
+
+
+#table-wrapper{
+    width: 400px; 
+    margin: 0 auto; 
+    position: relative;
+    max-width: 90vw;
+}
+
+body{
+    margin:0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
